@@ -4,7 +4,7 @@ package se.lexicon;
 import java.time.LocalDate;
 import java.util.Scanner;
 
-public class SchoolCLI {
+public class Main {
     private static StudentDao studentDao = new StudentDaoImpl();
     private static CourseDao courseDao = new CourseDaoImpl();
     private static Scanner scanner = new Scanner(System.in);

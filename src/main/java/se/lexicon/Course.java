@@ -70,5 +70,14 @@ public class Course {
                 ", weekDuration=" + weekDuration +
                 ", students=" + students.size() + '}';
     }
+
+    public void setCourseName(String s) {
+    }
+
+    public void setStartDate(LocalDate parse) {
+    }
+
+    public void setWeekDuration(int i) {
+    }
 }
 
